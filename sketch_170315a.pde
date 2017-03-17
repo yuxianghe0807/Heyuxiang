@@ -6,19 +6,10 @@ void setup(){
 }
 
 void draw(){
-  if(mouseX <425 && mouseY <400 && mouseX>390 && mouseY>350){
-    rect(375,350,50,50);
+  if(mouseX>350 && mouseX<450 && mouseY>450 && mouseY<400){
+    rect(0,0,600,600);
   }else{
-    if(mouseX <450 && mouseY <400 && mouseX>400 && mouseY>350){
-    rect(350,325,100,100);
-  }else{if(mouseX <475 && mouseY <400 && mouseX>375 && mouseY>350){
-    rect(325,300,150,150);
-  }
-  
-  }
-  }
-  
-  
-  
+     background(50,50,50);
+  } 
   
 }
